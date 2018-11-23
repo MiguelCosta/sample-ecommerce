@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Mpc.Ecommerce.BackOffice.Data.Ef</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mpc.Ecommerce.BackOffice.Domain.Core\Mpc.Ecommerce.BackOffice.Domain.Core.csproj" />
+    <ProjectReference Include="..\Mpc.Ecommerce.BackOffice.Infrastructure.CrossCutting\Mpc.Ecommerce.BackOffice.Infrastructure.CrossCutting.csproj" />
+  </ItemGroup>
+
+</Project>
